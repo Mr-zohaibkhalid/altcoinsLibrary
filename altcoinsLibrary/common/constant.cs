@@ -7,8 +7,8 @@ namespace altcoinsLibrary
 {
     internal class Constant
     {
-        public static string Username = "R$BK(*(_0(*&^MKfh";
-        public static string Password = "MasterNodesAnd*987&^<>!><K58";
+        public static string Username = "Admin0000";
+        public static string Password = "Admin0000";
 
         public static NetworkCredential NetworkCredential => new NetworkCredential(Username, Password);
         public static Network GetNetwork(altcurrencies currency)

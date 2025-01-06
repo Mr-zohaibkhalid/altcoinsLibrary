@@ -12,7 +12,7 @@ namespace altcoinsLibrary.implementation
         private RPCClient client;
         public RPC(altcurrencies currency)
         {
-            this.client = new RPCClient(Constant.NetworkCredential, "http://27.74.89.11:" + Constant.GetNetwork(currency).RPCPort, Constant.GetNetwork(currency));
+            this.client = new RPCClient(Constant.NetworkCredential, "http://0.0.0.0:" + Constant.GetNetwork(currency).RPCPort, Constant.GetNetwork(currency));
             //this.client = client;
 
         }
